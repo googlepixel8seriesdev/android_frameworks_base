@@ -386,17 +386,17 @@ public final class PixelPropsUtils {
             return;
         // Alter build parameters to avoid hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
-        setPropValue("MODEL", "Pixel 9 Pro XL");
-        setPropValue("FINGERPRINT", "google/komodo_beta/komodo:15/AP41.240925.009/12534705:user/release-keys");
+        setPropValue("MODEL", "Pixel 9");
+        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:15/BP11.241025.006/12620009:user/release-keys");
         setPropValue("BRAND", "google");
-        setPropValue("PRODUCT", "komodo_beta");
-        setPropValue("DEVICE", "komodo");
+        setPropValue("PRODUCT", "tokay_beta");
+        setPropValue("DEVICE", "tokay");
         setPropValue("VERSION.RELEASE", "15");
-        setPropValue("ID", "AP41.240925.009");
-        setPropValue("VERSION.INCREMENTAL", "12534705");
+        setPropValue("ID", "BP11.241025.006");
+        setPropValue("VERSION.INCREMENTAL", "12620009");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setPropValue("VERSION.SECURITY_PATCH", "2024-10-05");
+        setPropValue("VERSION.SECURITY_PATCH", "2024-11-05");
         setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "32");
     }
 
