@@ -6970,12 +6970,6 @@ public final class Settings {
         public static final String NAVBAR_STYLE = "navbar_style";
 
         /**
-         * Whether to show heads up only for dialer and sms apps
-         * @hide
-         */
-        public static final String LESS_BORING_HEADS_UP = "less_boring_heads_up";
-
-        /**
          * Whether to play notification sound and vibration if screen is ON
          * 0 - never
          * 1 - always
