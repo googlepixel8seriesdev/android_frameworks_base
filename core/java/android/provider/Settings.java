@@ -6970,12 +6970,6 @@ public final class Settings {
         public static final String NAVBAR_STYLE = "navbar_style";
 
         /**
-         * Whether to show heads up only for dialer and sms apps
-         * @hide
-         */
-        public static final String LESS_BORING_HEADS_UP = "less_boring_heads_up";
-
-        /**
          * Whether to play notification sound and vibration if screen is ON
          * 0 - never
          * 1 - always
@@ -7271,6 +7265,19 @@ public final class Settings {
          * @hide
          */
         public static final String QS_TILE_ANIMATION_INTERPOLATOR = "qs_tile_animation_interpolator";
+
+        /**
+         * Whether long press on navbar gesture is enabled
+         * @hide
+         */
+        @Readable
+        public static final String NAVBAR_LONG_PRESS_GESTURE = "navbar_long_press_gesture";
+
+        /**
+         * Whether to show heads up only for dialer and sms apps
+         * @hide
+         */
+        public static final String LESS_BORING_HEADS_UP = "less_boring_heads_up";
 
         /**
          * Keys we no longer back up under the current schema, but want to continue to
